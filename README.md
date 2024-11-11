@@ -1,1 +1,1 @@
-Descarga música y videos de youtube, solo necesitas tener pytohn instalado y ejecutar este codigo, el archivo se isntala en la la carpeta raiz donde este el archivo ejecutandose
+Descarga musica y videos de youtube, edita la ruta de descarga, proximamente funciones IA.
