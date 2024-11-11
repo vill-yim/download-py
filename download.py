@@ -10,7 +10,6 @@ def main():
         if rute_option == 'n':
             rute = os.getcwd()
 
-
         if preference == "mp3":
             ydl_opts = {
                 "format": "bestaudio/best",
@@ -25,7 +24,6 @@ def main():
                 "playlist": False,
                 "playlist_items": "1",
             }
-
         if preference == "mp4":
             ydl_opts.update({"format": "best[ext=mp4]"})
         try:
@@ -34,7 +32,5 @@ def main():
                 print(f"{preference} descargado exitosamente")
         except Exception as e:
             print(f"Error durante la descarga: {str(e)}")
-
-
 if __name__ == "__main__":
     main()
